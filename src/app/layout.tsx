@@ -13,10 +13,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sobhy Ahmed | Front-End Developer",
+  title: "Eslam Sobhy  | Front-End Developer",
   description:
-    "Portfolio of Sobhy Ahmed — a front-end developer specializing in React, Next.js, and modern web technologies.",
+    "Portfolio of Eslam Sobhy — a front-end developer specializing in React, Next.js, and modern web technologies.",
   keywords: ["front-end developer", "React", "Next.js", "portfolio", "TypeScript"],
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
