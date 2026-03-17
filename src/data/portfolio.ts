@@ -1,16 +1,18 @@
 export const siteConfig = {
   name: "Sobhy",
-  fullName: "Sobhy Ahmed",
+  fullName: "EslamSobhy",
   role: "Front-End Developer",
-  email: "sobhy@example.com",
+  email: "eslamsobhy206@gmail.com",
   location: "Cairo, Egypt",
   bio: "I craft pixel-perfect, performant, and accessible user interfaces that bring ideas to life. With a passion for clean code and smooth interactions, I turn complex problems into elegant digital experiences.",
-  resumeUrl: "#",
+  // Update this to your actual external resume URL
+  resumeUrl: "https://drive.google.com/file/d/1jZ7kFJQFwG7j2JbCa-d7cGeV-BtPxa5K/view?usp=drive_link",
   avatarUrl: "/avatar.jpg",
   socialLinks: [
-    { label: "GitHub", url: "https://github.com", icon: "github" },
-    { label: "LinkedIn", url: "https://linkedin.com", icon: "linkedin" },
-    { label: "Twitter", url: "https://twitter.com", icon: "twitter" },
+    { label: "GitHub", url: "https://github.com/eslamsobhy", icon: "github" },
+    { label: "LinkedIn", url: "https://www.linkedin.com/in/eslam-sobhii/", icon: "linkedin" },
+    { label: "Resume", url: "https://drive.google.com/file/d/1jZ7kFJQFwG7j2JbCa-d7cGeV-BtPxa5K/view?usp=drive_link", icon: "resume" },
+    // { label: "Twitter", url: "https://twitter.com", icon: "twitter" },
   ],
 };
 
@@ -27,7 +29,7 @@ export const navLinks = [
 
 export const heroData = {
   greeting: "Hello, I'm",
-  name: "Sobhy Ahmed",
+  name: "Eslam Sobhy",
   taglines: [
     "Front-End Developer",
     "UI/UX Enthusiast",
@@ -49,9 +51,9 @@ export const aboutData = {
     "When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community through blog posts and talks.",
   ],
   stats: [
-    { label: "Years Experience", value: "4+" },
-    { label: "Projects Completed", value: "30+" },
-    { label: "Happy Clients", value: "20+" },
+    { label: "Years Experience", value: "3+" },
+    { label: "Projects Completed", value: "10+" },
+    { label: "Happy Clients", value: "5+" },
     { label: "Technologies", value: "15+" },
   ],
 };

@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import Image from "next/image";
 import gsap from "gsap";
 import { heroData, siteConfig } from "@/data/portfolio";
 
@@ -65,17 +66,27 @@ export default function Hero() {
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_rgba(16,185,129,0.08)_0%,_transparent_60%)]" />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,_rgba(59,130,246,0.06)_0%,_transparent_60%)]" />
 
-      <div
-        ref={decorRef}
-        className="pointer-events-none absolute right-[10%] top-1/2 -translate-y-1/2 hidden lg:block"
-      >
+      <div className="pointer-events-none absolute right-[10%] top-1/2 -translate-y-1/2 hidden md:block">
         <div className="relative h-[500px] w-[500px]">
-          <div className="absolute inset-0 rounded-full border border-emerald-500/20" />
-          <div className="absolute inset-8 rounded-full border border-emerald-500/10" />
-          <div className="absolute inset-16 rounded-full border border-blue-500/10" />
-          <div className="absolute top-0 left-1/2 h-3 w-3 -translate-x-1/2 rounded-full bg-emerald-400 shadow-lg shadow-emerald-400/50" />
-          <div className="absolute bottom-1/4 right-0 h-2 w-2 rounded-full bg-blue-400 shadow-lg shadow-blue-400/50" />
-          <div className="absolute bottom-0 left-1/4 h-2.5 w-2.5 rounded-full bg-purple-400 shadow-lg shadow-purple-400/50" />
+          <div ref={decorRef} className="absolute inset-0">
+            <div className="absolute inset-0 rounded-full border border-emerald-500/20" />
+            <div className="absolute inset-8 rounded-full border border-emerald-500/10" />
+            <div className="absolute inset-16 rounded-full border border-blue-500/10" />
+            <div className="absolute top-0 left-1/2 h-3 w-3 -translate-x-1/2 rounded-full bg-emerald-400 shadow-lg shadow-emerald-400/50" />
+            <div className="absolute bottom-1/4 right-0 h-2 w-2 rounded-full bg-blue-400 shadow-lg shadow-blue-400/50" />
+            <div className="absolute bottom-0 left-1/4 h-2.5 w-2.5 rounded-full bg-purple-400 shadow-lg shadow-purple-400/50" />
+          </div>
+
+          <div className="absolute inset-24 overflow-hidden rounded-full border border-zinc-800/60">
+            <Image
+              src="/IMG_0043.JPG"
+              alt={siteConfig.name}
+              fill
+              sizes="(min-width: 1024px) 400px, (min-width: 768px) 320px"
+              className="object-cover"
+              priority
+            />
+          </div>
         </div>
       </div>
 
@@ -195,6 +206,12 @@ function SocialIcon({ name }: { name: string }) {
       return (
         <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
           <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+        </svg>
+      );
+    case "resume":
+      return (
+        <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M7 2.75A2.75 2.75 0 0 1 9.75 0h4.086c.464 0 .909.184 1.237.513l4.414 4.414c.329.328.513.773.513 1.237V21A3 3 0 0 1 17 24H7a3 3 0 0 1-3-3V5.75A3 3 0 0 1 7 2.75Zm0 2A1 1 0 0 0 6 5.75V21a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V6.414L14.586 2.75H9.75a1 1 0 0 0-1 1ZM9 11.25h6a.75.75 0 0 1 0 1.5H9a.75.75 0 0 1 0-1.5Zm0 3.5h6a.75.75 0 0 1 0 1.5H9a.75.75 0 0 1 0-1.5ZM9 18.25h3a.75.75 0 0 1 0 1.5H9a.75.75 0 0 1 0-1.5Z" />
         </svg>
       );
     default:
