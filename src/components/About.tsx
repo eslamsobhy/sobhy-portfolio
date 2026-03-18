@@ -21,10 +21,13 @@ export default function About() {
         duration: 0.8,
         stagger: 0.15,
         ease: "power3.out",
+        immediateRender: false,
+        clearProps: "transform,opacity",
         scrollTrigger: {
           trigger: titleRef.current,
           start: "top 85%",
           toggleActions: "play none none none",
+          once: true,
         },
       });
 
@@ -34,27 +37,37 @@ export default function About() {
         duration: 0.7,
         stagger: 0.2,
         ease: "power2.out",
+        immediateRender: false,
+        clearProps: "transform,opacity",
         scrollTrigger: {
           trigger: contentRef.current,
           start: "top 80%",
           toggleActions: "play none none none",
+          once: true,
         },
       });
 
       if (statsRef.current) {
-        gsap.from(statsRef.current.children, {
-          y: 40,
+        const cards = gsap.utils.toArray<HTMLElement>(statsRef.current.children);
+        gsap.from(cards, {
+          y: 30,
           opacity: 0,
-          duration: 0.6,
-          stagger: 0.12,
-          ease: "back.out(1.5)",
+          scale: 0.9,
+          duration: 0.7,
+          stagger: 0.15,
+          ease: "power3.out",
+          immediateRender: false,
+          clearProps: "transform,opacity",
           scrollTrigger: {
             trigger: statsRef.current,
             start: "top 85%",
             toggleActions: "play none none none",
+            once: true,
           },
         });
       }
+
+      ScrollTrigger.refresh();
     }, sectionRef);
 
     return () => ctx.revert();
@@ -93,7 +106,7 @@ export default function About() {
 
           <div
             ref={statsRef}
-            className="grid grid-cols-2 gap-6"
+            className="grid grid-cols-1 sm:grid-cols-3 gap-6"
           >
             {aboutData.stats.map((stat, i) => (
               <div
