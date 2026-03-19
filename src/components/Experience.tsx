@@ -91,9 +91,17 @@ export default function Experience() {
                   <p className="mb-3 text-sm font-medium text-zinc-500">
                     {item.company}
                   </p>
-                  <p className="mb-4 text-sm leading-relaxed text-zinc-400">
-                    {item.description}
-                  </p>
+                  {Array.isArray(item.description) ? (
+                    <ul className="mb-4 list-disc space-y-2 pl-5 text-sm leading-relaxed text-zinc-400">
+                      {item.description.map((point) => (
+                        <li key={point}>{point}</li>
+                      ))}
+                    </ul>
+                  ) : (
+                    <p className="mb-4 text-sm leading-relaxed text-zinc-400">
+                      {item.description}
+                    </p>
+                  )}
                   <div className="flex flex-wrap gap-2">
                     {item.technologies.map((tech) => (
                       <span

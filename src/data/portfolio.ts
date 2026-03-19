@@ -117,40 +117,50 @@ export const experienceData = {
   items: [
     {
       id: 1,
-      role: "Senior Front-End Developer",
-      company: "TechCorp Inc.",
-      period: "2024 – Present",
-      description:
-        "Leading the front-end team in building a SaaS platform serving 50K+ users. Architected the design system and improved performance by 40%.",
-      technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
+      role: "Front-End Developer",
+      company: "Crowd Analyzer",
+      period: "Mar 2024 – Present",
+      description: [
+        "Owned greenfield app initiatives end-to-end — from product discovery and architecture to delivery and iteration.",
+        "Implemented a scalable design system to ensure UI consistency, faster delivery, and a polished UX across the platform.",
+        "Performance-first mindset: introduced virtualized infinite scrolling for large listings, reducing memory usage by 85% while keeping interactions smooth.",
+      ],
+      technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "SASS", "Git & Github"],
     },
     {
       id: 2,
       role: "Front-End Developer",
-      company: "Digital Agency X",
-      period: "2022 – 2024",
-      description:
-        "Developed responsive web applications for various clients across e-commerce, healthcare, and fintech industries. Mentored junior developers.",
-      technologies: ["React", "JavaScript", "Sass", "Redux"],
+      company: "Extend | The Ad Network",
+      period: "Aug 2023 – Mar 2024",
+      description: [
+        "Built and maintained two web portals: a client-facing React app and an admin Angular dashboard.",
+        "Implemented responsive UI components aligned with the design system, including interactive charts.",
+        "Collaborated closely with backend teams to integrate APIs, ensuring smooth data flow and efficient user operations.",
+        "Shifted video editing from server-side processing to a client-side WebAssembly workflow, improving UX responsiveness, performance, and the operation team’s productivity.",
+      ],
+      technologies: ["React", "Angular", "TypeScript", "Sass", "Zustand", "Chart.js", "WebAssembly", "React Query", "Axios", "i18n", "Ant Design", "REST APIs", "Postman", "Figma", "Git & Github"],
     },
     {
       id: 3,
-      role: "Junior Front-End Developer",
-      company: "StartupHub",
-      period: "2021 – 2022",
-      description:
-        "Built interactive UI components and collaborated closely with designers to implement pixel-perfect interfaces for an early-stage startup.",
-      technologies: ["React", "CSS Modules", "Firebase", "Git"],
+      role: "Front-End Developer",
+      company: "Crete Agency",
+      period: "May 2023 – Aug 2023",
+      description: [
+        "Integrated frontend components with an existing Laravel MVC (Blade) backend, ensuring proper data flow and consistent UI behavior across the application.",
+        "Fixed UI bugs and enhanced features using JavaScript, CSS, and Blade templates, improving usability and consistency.",
+        "Collaborated closely with backend developers to ensure smooth frontend–backend integration, accurate data handling, and reliable application functionality.",
+      ],
+      technologies: ["Blade", "Laravel", "JavaScript", "CSS", "PHP", "MySQL", "Git & Github"],
     },
-    {
-      id: 4,
-      role: "Freelance Web Developer",
-      company: "Self-Employed",
-      period: "2020 – 2021",
-      description:
-        "Delivered 10+ websites for small businesses and individuals. Gained experience in client communication, project management, and full delivery lifecycle.",
-      technologies: ["HTML", "CSS", "JavaScript", "WordPress"],
-    },
+    // {
+    //   id: 4,
+    //   role: "Freelance Web Developer",
+    //   company: "Self-Employed",
+    //   period: "2020 – 2021",
+    //   description:
+    //     "Delivered 10+ websites for small businesses and individuals. Gained experience in client communication, project management, and full delivery lifecycle.",
+    //   technologies: ["HTML", "CSS", "JavaScript", "WordPress"],
+    // },
   ],
 };
 
