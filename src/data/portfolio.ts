@@ -171,20 +171,23 @@ export const educationData = {
     {
       id: 1,
       degree: "B.Sc. in Computer Science",
-      institution: "Cairo University",
-      period: "2016 – 2020",
+      institution: "Ain Shams University",
+      period: "2017 – 2021",
       description:
-        "Focused on software engineering, algorithms, and human-computer interaction. Graduated with honors and led multiple front-end focused projects.",
-      details: ["GPA: 3.7 / 4.0", "Senior project: Responsive web platform for e-learning"],
+        "Focused on software engineering, Data Structures (DS) and algorithms, and OOP. Applied these concepts to web development and image processing through many hands-on projects. Graduated with honors and led multiple front-end focused projects.",
+      details: ["GPA: 3.15 / 4.0", "Senior project: Post grad. management system for Ain Shams University"],
     },
     {
       id: 2,
-      degree: "Front-End Web Development Nanodegree",
-      institution: "Udacity",
-      period: "2021",
+      degree: "ITI Intensive Code Camp - Full Stack Web Development using MEARN Stack",
+      institution: "ITI",
+      period: "2023",
       description:
-        "Hands-on program covering modern JavaScript, responsive design, and performance optimization with real-world projects.",
-      details: ["Built 3+ production-ready front-end projects", "Emphasis on accessibility and performance"],
+        "Hands-on full-stack program building lots of real projects with HTML, CSS, JavaScript, TypeScript, SASS, Bootstrap, React, Angular, plus MongoDB and Node/Express APIs for end-to-end web development.",
+      details: [
+        "Built 3+ production-ready front-end projects",
+        "Graduation project: Electronix E-commerce app with two portals (client-facing and seller portal).",
+      ],
     },
     {
       id: 3,
@@ -313,8 +316,8 @@ export const testimonialsData = {
 export const contactData = {
   title: "Get In Touch",
   subtitle: "Have a project in mind? Let's talk about it.",
-  email: "sobhy@example.com",
-  phone: "+20 123 456 7890",
+  email: "eslamsobhy206@gmail.com",
+  phone: "+201114304705",
   location: "Cairo, Egypt",
   formFields: [
     { name: "name", label: "Your Name", type: "text", placeholder: "John Doe" },
@@ -325,7 +328,7 @@ export const contactData = {
 };
 
 export const footerData = {
-  copyright: `© ${new Date().getFullYear()} Sobhy Ahmed. All rights reserved.`,
+  copyright: `© ${new Date().getFullYear()} Eslam Sobhy. All rights reserved.`,
   tagline: "Crafted with passion and clean code.",
   quickLinks: [
     { label: "Home", href: "#home" },
