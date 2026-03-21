@@ -93,8 +93,11 @@ export default function Education() {
                 <ul className="space-y-1.5 text-xs text-zinc-400">
                   {item.details.map((detail) => (
                     <li key={detail} className="flex items-start gap-2">
-                      <span className="mt-1 h-1.5 w-1.5 rounded-full bg-emerald-400" />
-                      <span>{detail}</span>
+                      <span
+                        className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-emerald-400"
+                        aria-hidden
+                      />
+                      <span className="min-w-0 flex-1 leading-relaxed">{detail}</span>
                     </li>
                   ))}
                 </ul>
