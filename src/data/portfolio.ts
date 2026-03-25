@@ -207,13 +207,13 @@ export const projectsData = {
   items: [
     {
       id: 1,
-      title: "E-Commerce Platform",
+      title: "Liqaa-25",
       description:
-        "A full-featured online store with cart, checkout, payment integration, and admin dashboard. Built with performance and accessibility in mind.",
-      image: "/projects/ecommerce.jpg",
-      technologies: ["Next.js", "TypeScript", "Stripe", "Tailwind CSS"],
-      liveUrl: "#",
-      githubUrl: "#",
+        "A private network for senior leaders across sectors, built to foster a supportive space for sharing ideas and experience. The platform connects peers so they can collaborate, exchange knowledge, and develop stronger strategies together.",
+      image: "/assets/liqaa-project.png",
+      technologies: ["Next.js", "TypeScript", "SASS", "i18n"],
+      liveUrl: "https://www.25.community/",
+      githubUrl: "",
       featured: true,
     },
     {
