@@ -238,39 +238,39 @@ export const projectsData = {
       githubUrl: "#",
       featured: true,
     },
-    {
-      id: 4,
-      title: "Weather Dashboard",
-      description:
-        "A beautiful weather app with animated backgrounds, 7-day forecasts, and location-based data using the OpenWeather API.",
-      image: "/projects/weather.jpg",
-      technologies: ["React", "Chart.js", "OpenWeather API", "CSS"],
-      liveUrl: "#",
-      githubUrl: "#",
-      featured: false,
-    },
-    {
-      id: 5,
-      title: "Blog Platform",
-      description:
-        "A modern blog with MDX support, dark mode, search, tags, and an RSS feed. Optimized for SEO and fast page loads.",
-      image: "/projects/blog.jpg",
-      technologies: ["Next.js", "MDX", "Prisma", "PostgreSQL"],
-      liveUrl: "#",
-      githubUrl: "#",
-      featured: false,
-    },
-    {
-      id: 6,
-      title: "Real-Time Chat App",
-      description:
-        "A messaging application with rooms, typing indicators, read receipts, and media sharing powered by WebSockets.",
-      image: "/projects/chat.jpg",
-      technologies: ["React", "Socket.io", "Express", "MongoDB"],
-      liveUrl: "#",
-      githubUrl: "#",
-      featured: false,
-    },
+    // {
+    //   id: 4,
+    //   title: "Weather Dashboard",
+    //   description:
+    //     "A beautiful weather app with animated backgrounds, 7-day forecasts, and location-based data using the OpenWeather API.",
+    //   image: "/projects/weather.jpg",
+    //   technologies: ["React", "Chart.js", "OpenWeather API", "CSS"],
+    //   liveUrl: "#",
+    //   githubUrl: "#",
+    //   featured: false,
+    // },
+    // {
+    //   id: 5,
+    //   title: "Blog Platform",
+    //   description:
+    //     "A modern blog with MDX support, dark mode, search, tags, and an RSS feed. Optimized for SEO and fast page loads.",
+    //   image: "/projects/blog.jpg",
+    //   technologies: ["Next.js", "MDX", "Prisma", "PostgreSQL"],
+    //   liveUrl: "#",
+    //   githubUrl: "#",
+    //   featured: false,
+    // },
+    // {
+    //   id: 6,
+    //   title: "Real-Time Chat App",
+    //   description:
+    //     "A messaging application with rooms, typing indicators, read receipts, and media sharing powered by WebSockets.",
+    //   image: "/projects/chat.jpg",
+    //   technologies: ["React", "Socket.io", "Express", "MongoDB"],
+    //   liveUrl: "#",
+    //   githubUrl: "#",
+    //   featured: false,
+    // },
   ],
 };
 
