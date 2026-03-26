@@ -229,12 +229,12 @@ export const projectsData = {
     },
     {
       id: 3,
-      title: "Portfolio Generator",
+      title: "iBeats - Crowd Ads.",
       description:
-        "A tool that lets developers create stunning portfolio websites by filling in a simple form. Exports clean, deployable code.",
-      image: "/projects/portfolio-gen.jpg",
-      technologies: ["Next.js", "MDX", "Tailwind CSS", "Vercel"],
-      liveUrl: "#",
+        "In today’s advertising-saturated world, Crowd Analyzer Advertisements helps you move beyond surface metrics by monitoring and analyzing the celebrity and influencer ad landscape. It provides a 12+ month archive and lets you categorize ads by brand, influencer, topic, company, and product through flexible digital agreements.",
+      image: "/assets/crowd-ads-project.png",
+      technologies: ["React.js", "Angular", "TypeScript", "React Query", "Zustand", "SASS", "Ant Design", "Axios", "i18n", "Recharts", "Vite"],
+      liveUrl: "https://crowdanalyzer.com/advertisements/",
       githubUrl: "#",
       featured: true,
     },
