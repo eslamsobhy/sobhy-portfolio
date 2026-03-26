@@ -218,12 +218,12 @@ export const projectsData = {
     },
     {
       id: 2,
-      title: "Task Management App",
+      title: "Balaconah",
       description:
-        "A Kanban-style project management tool with drag-and-drop, real-time updates, and team collaboration features.",
-      image: "/projects/taskapp.jpg",
-      technologies: ["React", "Redux", "Socket.io", "Node.js"],
-      liveUrl: "#",
+        "A Saudi-focused platform on marketing and communications—timely, original coverage with the long-term goal of becoming the sector’s primary reference. It weaves together industry stories, campaign and creative analysis, design and brand identity, creator features, events, awards, and agency job listings, backed by a rich ad library, an advertising glossary, live data-backed reports, and a directory of agencies and professionals to make discovery and outreach easier.",
+      image: "/assets/balaconah-project.png",
+      technologies: ["Next.js", "TypeScript", "SASS", "Ant Design", "Axios", "i18n"],
+      liveUrl: "https://www.balaconah.com/",
       githubUrl: "#",
       featured: true,
     },
