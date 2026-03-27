@@ -1,4 +1,4 @@
-# Sobhy Ahmed — Portfolio
+# Eslam Sobhy — Portfolio
 
 A modern, responsive portfolio built with **Next.js**, **Tailwind CSS**, and **GSAP** for animations.
 
