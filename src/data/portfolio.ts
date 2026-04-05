@@ -238,17 +238,17 @@ export const projectsData = {
       githubUrl: "#",
       featured: true,
     },
-    // {
-    //   id: 4,
-    //   title: "Weather Dashboard",
-    //   description:
-    //     "A beautiful weather app with animated backgrounds, 7-day forecasts, and location-based data using the OpenWeather API.",
-    //   image: "/projects/weather.jpg",
-    //   technologies: ["React", "Chart.js", "OpenWeather API", "CSS"],
-    //   liveUrl: "#",
-    //   githubUrl: "#",
-    //   featured: false,
-    // },
+    {
+      id: 4,
+      title: "Crowd Analyzer Intelligence",
+      description:
+        "Comprehensive Media Intelligence solution that provides real-time monitoring and analytics across social, print, and broadcast media. The platform uses advanced AI to identify trends, track competitors, and detect potential crises, helping businesses stay ahead and respond quickly to market changes.",
+      image: "/assets/crowd-intelligence.png",
+      technologies: ["React", "TypeScript", "React Query", "Zustand", "Recharts", "Axios", "Shadcn/ui", "Tailwind CSS", "React Hook Form", "Zod", "Vite"],
+      liveUrl: "https://crowdanalyzer.com/media-intelligence/",
+      githubUrl: "#",
+      featured: true,
+    },
     // {
     //   id: 5,
     //   title: "Blog Platform",
