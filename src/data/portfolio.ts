@@ -247,7 +247,7 @@ export const projectsData = {
       technologies: ["React.js", "TypeScript", "React Query", "Zustand", "Recharts", "Axios", "Shadcn/ui", "Tailwind CSS", "React Hook Form", "Zod", "Vite"],
       liveUrl: "https://crowdanalyzer.com/media-intelligence/",
       githubUrl: "#",
-      featured: true,
+      featured: false,
     },
     {
       id: 5,
@@ -258,7 +258,7 @@ export const projectsData = {
       technologies: ["React.js", "TypeScript", "React Query", "Zustand", "Axios", "Tailwind CSS", "Shadcn/ui", "Vite"],
       liveUrl: "https://crowdanalyzer.com/the-command-center-take-back-command-of-your-brand/",
       githubUrl: "#",
-      featured: true,
+      featured: false,
     },
     // {
     //   id: 6,
