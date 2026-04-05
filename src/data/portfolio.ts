@@ -244,22 +244,22 @@ export const projectsData = {
       description:
         "Comprehensive Media Intelligence solution that provides real-time monitoring and analytics across social, print, and broadcast media. The platform uses advanced AI to identify trends, track competitors, and detect potential crises, helping businesses stay ahead and respond quickly to market changes.",
       image: "/assets/crowd-intelligence.png",
-      technologies: ["React", "TypeScript", "React Query", "Zustand", "Recharts", "Axios", "Shadcn/ui", "Tailwind CSS", "React Hook Form", "Zod", "Vite"],
+      technologies: ["React.js", "TypeScript", "React Query", "Zustand", "Recharts", "Axios", "Shadcn/ui", "Tailwind CSS", "React Hook Form", "Zod", "Vite"],
       liveUrl: "https://crowdanalyzer.com/media-intelligence/",
       githubUrl: "#",
       featured: true,
     },
-    // {
-    //   id: 5,
-    //   title: "Blog Platform",
-    //   description:
-    //     "A modern blog with MDX support, dark mode, search, tags, and an RSS feed. Optimized for SEO and fast page loads.",
-    //   image: "/projects/blog.jpg",
-    //   technologies: ["Next.js", "MDX", "Prisma", "PostgreSQL"],
-    //   liveUrl: "#",
-    //   githubUrl: "#",
-    //   featured: false,
-    // },
+    {
+      id: 5,
+      title: "Crowd Analyzer Command Center",
+      description:
+        "Real-time Command Center platform that aggregates and visualizes data in a single, cohesive interface. Focused on delivering dynamic, customizable dashboards that help organizations monitor operations, track key metrics, and present insights effectively on large-scale displays across different industries.",
+      image: "/assets/command-center-project.png",
+      technologies: ["React.js", "TypeScript", "React Query", "Zustand", "Axios", "Tailwind CSS", "Shadcn/ui", "Vite"],
+      liveUrl: "https://crowdanalyzer.com/the-command-center-take-back-command-of-your-brand/",
+      githubUrl: "#",
+      featured: true,
+    },
     // {
     //   id: 6,
     //   title: "Real-Time Chat App",
