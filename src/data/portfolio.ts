@@ -6,12 +6,12 @@ export const siteConfig = {
   location: "Cairo, Egypt",
   bio: "I craft pixel-perfect, performant, and accessible user interfaces that bring ideas to life. With a passion for clean code and smooth interactions, I turn complex problems into elegant digital experiences.",
   // Update this to your actual external resume URL
-  resumeUrl: "https://drive.google.com/file/d/1jZ7kFJQFwG7j2JbCa-d7cGeV-BtPxa5K/view?usp=drive_link",
+  resumeUrl: "https://docs.google.com/document/d/1EUJC6gkb2LQOrbvjfbZYCWYNJYvhSJ2qE2YNCwTU_a8/edit?usp=sharing",
   avatarUrl: "/avatar.jpg",
   socialLinks: [
     { label: "GitHub", url: "https://github.com/eslamsobhy", icon: "github" },
     { label: "LinkedIn", url: "https://www.linkedin.com/in/eslam-sobhii/", icon: "linkedin" },
-    { label: "Resume", url: "https://drive.google.com/file/d/1jZ7kFJQFwG7j2JbCa-d7cGeV-BtPxa5K/view?usp=drive_link", icon: "resume" },
+    { label: "Resume", url: "https://docs.google.com/document/d/1EUJC6gkb2LQOrbvjfbZYCWYNJYvhSJ2qE2YNCwTU_a8/edit?usp=sharing", icon: "resume" },
     // { label: "Twitter", url: "https://twitter.com", icon: "twitter" },
   ],
 };
